@@ -1,0 +1,45 @@
+/*
+   Theme Name: Zerif Pro Child
+   Theme URI: https://www.themeisle.com/ 
+   Description: This is a custom child theme I have created.
+   Author: Nathan Davis
+   URI: https://www.themeisle.com/ 
+   Template: zerif-pro
+   Version: 0.3
+   */
+@import url(../zerif-pro/style.css);
+/* =Theme customization starts here
+------------------------------------------------------- */
+@import url(https://fonts.googleapis.com/css?family=Lobster);
+/* line 18, sass/style.scss */
+.header .navbar-inverse {
+  background-color: #bbbbbb;
+  color: #ffffff;
+}
+/* line 22, sass/style.scss */
+.header .navbar-inverse .main-nav-list .page_item {
+  color: #ffffff;
+}
+
+/* line 29, sass/style.scss */
+.page_item {
+  color: #ffffff;
+}
+
+/* line 34, sass/style.scss */
+li .page_item {
+  color: #ffffff;
+}
+
+/* line 40, sass/style.scss */
+.big-title-container .intro-text {
+  font-family: "Lobster";
+  text-transform: none;
+}
+
+/* line 46, sass/style.scss */
+.about-img {
+  width: 100%;
+  height: auto;
+  margin: 10px 0;
+}
